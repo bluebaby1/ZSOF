@@ -129,7 +129,6 @@ FUNCTION zgtt_sof_ee_de_hd.
       ls_eerel-z_pdstk    = gc_false.
     ENDIF.
     MODIFY zgtt_sof_ee_rel FROM ls_eerel.
-    COMMIT WORK.
 
     CLEAR ls_expeventdata-locid2.
     IF ls_eerel-z_wbstk    = gc_true.
